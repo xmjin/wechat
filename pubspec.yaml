@@ -22,7 +22,10 @@ dev_dependencies:
 flutter:
   uses-material-design: true
   assets:
+
     - images/loading.jpg
+
+    #    tab切换图标
     - images/contact_list_normal.png
     - images/contact_list_pressed.png
     - images/find_normal.png
@@ -31,6 +34,12 @@ flutter:
     - images/profile_pressed.png
     - images/weixin_normal.png
     - images/weixin_pressed.png
+
+    #    菜单按钮
+    - icon_menu_addfriend.png
+    - icon_menu_group.png
+    - icon_menu_scan.png
+
     - find_normal.png
     - find_pressed.png
     - icon_addfriend.png
@@ -46,9 +55,9 @@ flutter:
     - icon_me_photo.png
     - icon_me_setting.png
     - icon_me_smile.png
-    - icon_menu_addfriend.png
-    - icon_menu_group.png
-    - icon_menu_scan.png
+
+
+
     - icon_near.png
     - icon_public.png
     - icon_scan.png
