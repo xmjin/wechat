@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'chat/message_page.dart';
 
 enum ItemType {GroupChat, AddFriends, QrCode, Payments, Help}
 
@@ -11,18 +12,18 @@ class MainState extends State<App> {
 
   var _currentIndex = 0;
 
-//  MessagePage message;
+  MessagePage message;
 //  Contacts contacts;
 //  Found found;
 //  Personal me;
 
-//  currentPage(){
-//    switch(_currentIndex){
-//      case 0:
-//        if(message == null){
-//          message = new Message();
-//        }
-//        return message;
+  currentPage(){
+    switch(_currentIndex){
+      case 0:
+        if(message == null){
+          message = new MessagePage();
+        }
+        return message;
 //      case 1:
 //        if(contacts == null){
 //          contacts = new Contacts();
@@ -38,10 +39,10 @@ class MainState extends State<App> {
 //          me = new Personal();
 //        }
 //        return me;
-//      default :
-//
-//    }
-//  }
+      default :
+
+    }
+  }
 
   _popupMenuItem(String title, {String imagePath, IconData icon}){
     return PopupMenuItem(
@@ -155,7 +156,7 @@ class MainState extends State<App> {
           )
         ],
       ),
-//      body: currentPage(),
+      body: currentPage()
     );
   }
 
