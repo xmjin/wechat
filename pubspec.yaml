@@ -1,0 +1,61 @@
+name: wechat
+description: wechat
+
+version: 1.0.0+1
+
+#environment:
+#  sdk: ">=2.1.0 <3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  flutter_webview_plugin: "^0.2.1+2"
+  date_format: "^1.0.4"
+
+#  cupertino_icons: ^0.1.2
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+flutter:
+  uses-material-design: true
+  assets:
+    - images/loading.jpg
+    - images/contact_list_normal.png
+    - images/contact_list_pressed.png
+    - images/find_normal.png
+    - images/find_pressed.png
+    - images/profile_normal.png
+    - images/profile_pressed.png
+    - images/weixin_normal.png
+    - images/weixin_pressed.png
+    - find_normal.png
+    - find_pressed.png
+    - icon_addfriend.png
+    - icon_bottle.png
+    - icon_friends.png
+    - icon_game.png
+    - icon_groupchat.png
+    - icon_link.png
+    - icon_look.png
+    - icon_me_card.png
+    - icon_me_collect.png
+    - icon_me_money.png
+    - icon_me_photo.png
+    - icon_me_setting.png
+    - icon_me_smile.png
+    - icon_menu_addfriend.png
+    - icon_menu_group.png
+    - icon_menu_scan.png
+    - icon_near.png
+    - icon_public.png
+    - icon_scan.png
+    - icon_search.png
+    - icon_shake.png
+    - icon_shop.png
+    - tutu.png
+    - code.png
+
+
