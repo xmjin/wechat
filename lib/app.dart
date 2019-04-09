@@ -2,6 +2,7 @@ import 'package:flutter/material.dart';
 import 'chat/message_page.dart';
 import 'contacts/contacts.dart';
 import 'found/found.dart';
+import 'personal/personal.dart';
 
 enum ItemType {GroupChat, AddFriends, QrCode, Payments, Help}
 
@@ -17,7 +18,7 @@ class MainState extends State<App> {
   MessagePage message;
   Contacts contacts;
   Found found;
-//  Personal me;
+  Personal me;
 
   currentPage(){
     switch(_currentIndex){
@@ -36,11 +37,11 @@ class MainState extends State<App> {
           found = new Found();
         }
         return found;
-//      case 3:
-//        if(me == null){
-//          me = new Personal();
-//        }
-//        return me;
+      case 3:
+        if(me == null){
+          me = new Personal();
+        }
+        return me;
       default :
 
     }
