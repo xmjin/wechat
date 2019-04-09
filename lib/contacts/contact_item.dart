@@ -40,7 +40,7 @@ class ContactItem extends StatelessWidget {
               margin: const EdgeInsets.only(left: 12.0),
               child: Text(
                 titleName == null ? item.name ?? '暂时' : titleName,
-                style: TextStyle(fontSize: 18.0, color: Color(0xFF353535)),
+                style: TextStyle(fontSize: 16.0, color: Color(0xFF353535)),
                 maxLines: 1,
               ),
             ),
